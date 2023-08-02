@@ -1,0 +1,58 @@
+"LightmappedGeneric"
+{
+	"%compilewater" 1
+	"$abovewater" "1"
+	"$surfaceprop" "water"
+
+	"$basetexture" "halflife/!toxicgrn"
+	"$bumpmap" "dev/water_normal"
+	"$bottommaterial" "hlstextures/hls_!bwater1_beneath"
+
+    	//"$color" "[0.10 0.13 0.14 ]"
+	"$alpha" "0.95"
+
+        	//"$refracttexture" "_rt_WaterRefraction"
+	//"$refractamount" "0"
+        	
+	"$fogenable" 1
+	"$fogcolor" "{ 123 165 107 }"
+	"$fogstart" 0.00
+	"$fogend" 1000.00 //1400
+
+	"$translate" "[0.0 0.0]"
+	"$scale" "[1.5 1.5]"
+	"$bumpframe" "0"
+	
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" 6
+			"sinemin" "1.5"
+			"sinemax" "1.51"
+			"resultVar" "$scale"
+		}
+		
+		"Sine"
+		{
+			"sineperiod" 12
+			"sinemin" "-.1"
+			"sinemax" ".1"
+			"resultVar" "$translate"
+		}
+
+		"TextureTransform"
+		{
+			"translateVar" "$translate"
+			"scaleVar" "$scale"
+			"resultVar" "$basetexturetransform"
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" "21"
+		}
+	}
+}
