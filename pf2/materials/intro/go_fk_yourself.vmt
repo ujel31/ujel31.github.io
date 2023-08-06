@@ -1,0 +1,13 @@
+UnlitGeneric
+{
+	$basetexture	"intro/go_fk_yourself"
+	$nofog			1
+	
+	
+	"Proxies"
+	{
+		"MaterialModify"
+		{
+		}
+	}
+}
