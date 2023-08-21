@@ -1,6 +1,0 @@
-#base "propdata/base.txt"
-#base "propdata/cs.txt"
-
-"PropData.txt"
-{
-}
