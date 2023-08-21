@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 		"models/HLA/Gman/Gman_Hair_Diff"
+	"$bumpmap"		"models/HLA/Gman/Gman_Hair_Normal"
+	"$lightwarptexture" 	"models/HLA/Gman/caucasian_wrp"
+
+	"$phong" "1"
+	"$phongalbedotint" "1"
+	"$phongexponent" "7"
+        "$phongboost"	"0"
+	"$phongfresnelranges"	"[1 2 4]"
+	"$halflambert" "1"
+
+	"$translucent" "1"
+	"$nocull" "1"
+
+	"$ambientocclusion" "0"
+
+}
