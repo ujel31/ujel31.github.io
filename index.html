@@ -1,60 +1,74 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>welcome</title>
-		<style>
-			body {
-				background-color: #63626e;
-				color: #cbcbcb;
-				font-family: Verdana,sans-serif;
-				font-size: 0.8rem;
-				
-				background-image: url("https://cdn.discordapp.com/attachments/667901505420132375/1104728316541415454/tf2_motd_bg.png");
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-attachment: fixed;
-				overflow: hidden;
-			}
-			.main {
-				width: 100%;
-				text-align: center;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="main">
-			<img id="artwork" style="width: 25%; border-radius: 5%" src="https://cdn.discordapp.com/attachments/1019942035429539882/1202305348934058044/frog_attack_dark.png">
-			<h2>welcome to server</h2>
-			<h3>we have: </h3>
-			<ul style="text-align: left">
-				<li>mostly vanilla-ish map rotation and settings</li>
-				<li>no permadeath on Arena maps (there's a frag limit instead now)</li>
-				<li>restored unused weapons for Scout, Medic and Spy (press M)</li>
-				<li>no tfc maps no hydro no 2fort no wacky races fuck off</li>
-			</ul>
-			<h3>rules: </h3>
-			<ol style="text-align: left">
-				<li>real men only</li>
-				<li>don't play trash on the aux</li>
-				<li>don't be an ass</li>
-				<li>no talking about pokemans</li>
-			</ol>
-			<script>
-				const artwork = document.getElementById("artwork");
-				const artworkImages = [
-					"https://cdn.discordapp.com/attachments/1019942123174379540/1202664955954991164/frog_attack.png",
-					"https://cdn.discordapp.com/attachments/1019942035429539882/1202305348934058044/frog_attack_dark.png",
-					"https://cdn.discordapp.com/attachments/1019942035429539882/1202035781557047326/prenis_glass.png",
-					"https://cdn.discordapp.com/attachments/1019942035429539882/1202035781557047326/prenis_glass.png",
-					"https://cdn.discordapp.com/attachments/1019942035429539882/1202028365083840583/cow_attack_16-9_ice_boy_.png",
-					"https://cdn.discordapp.com/attachments/1019942035429539882/1202030664233259069/cow_attack_16-9_ice_boy_2_.png",
-					"https://cdn.discordapp.com/attachments/1019942035429539882/1201615121328382064/krowa_16-9_1.png",
-					"https://cdn.discordapp.com/attachments/1019942035429539882/1201615805520031774/cow_16-9_ice_boy_2_.png",
-					"https://cdn.discordapp.com/attachments/1019942035429539882/1201547433243586600/cow_16-9.png",
-				];
-				artwork.src = artworkImages[Math.floor(Math.random()*artworkImages.length)]
-			</script>
-			<marquee><p style="font-size: 0.6rem">hosted on a potato somewhere in Europe (pray it doesn't choke) - powered by ujelware 2.0</p></marquee>
+
+<head>
+	<title>welcome</title>
+	<style>
+		body {
+			background-color: #63626e;
+			color: #cbcbcb;
+			font-family: Verdana, sans-serif;
+			font-size: 0.8rem;
+
+			background-image: url("https://cdn.discordapp.com/attachments/667901505420132375/1104728316541415454/tf2_motd_bg.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			overflow: hidden;
+		}
+
+		.main {
+			width: 100%;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="main">
+		<img id="artwork" style="width: 25%; border-radius: 5%"
+			src="https://cdn.discordapp.com/attachments/1019942035429539882/1202305348934058044/frog_attack_dark.png">
+		<h2>welcome to server</h2>
+		<h3>we have: </h3>
+		<ul style="text-align: left">
+			<li>mostly vanilla-ish map rotation and settings</li>
+			<li>no permadeath on Arena maps (there's a frag limit instead now)</li>
+			<li>restored unused weapons for Scout, Medic and Spy (press M)</li>
+			<li>no tfc maps no hydro no 2fort no wacky races fuck off</li>
+		</ul>
+		<h3>rules: </h3>
+		<ol style="text-align: left">
+			<li>real men only</li>
+			<li>don't play trash on the aux</li>
+			<li>don't be an ass</li>
+			<li>no talking about pokemans</li>
+		</ol>
+		<div>
+			<b style="color: #DDAA66"><u>disclaimer:</u> the server is currently running on a janky makeshift setup,
+				it might choke every now and then. if enough people care i might move it to something proper in the
+				future
+			</b>
 		</div>
-	</body>
+		<marquee>
+			<p style="font-size: 0.6rem">hosted on a potato in the middle of nowhere - copyright ujelsoft 1939</p>
+		</marquee>
+		<script>
+			const artwork = document.getElementById("artwork");
+			const artworkImages = [
+				"https://cdn.discordapp.com/attachments/1019942123174379540/1202664955954991164/frog_attack.png",
+				"https://cdn.discordapp.com/attachments/1019942035429539882/1202305348934058044/frog_attack_dark.png",
+				"https://cdn.discordapp.com/attachments/1019942035429539882/1202035781557047326/prenis_glass.png",
+				"https://cdn.discordapp.com/attachments/1019942035429539882/1202035781557047326/prenis_glass.png",
+				"https://cdn.discordapp.com/attachments/1019942035429539882/1202028365083840583/cow_attack_16-9_ice_boy_.png",
+				"https://cdn.discordapp.com/attachments/1019942035429539882/1202030664233259069/cow_attack_16-9_ice_boy_2_.png",
+				"https://cdn.discordapp.com/attachments/1019942035429539882/1201615121328382064/krowa_16-9_1.png",
+				"https://cdn.discordapp.com/attachments/1019942035429539882/1201615805520031774/cow_16-9_ice_boy_2_.png",
+				"https://cdn.discordapp.com/attachments/1019942035429539882/1201547433243586600/cow_16-9.png",
+			];
+			artwork.src = artworkImages[Math.floor(Math.random() * artworkImages.length)]
+		</script>
+
+	</div>
+</body>
+
 </html>
