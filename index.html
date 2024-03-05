@@ -4,6 +4,14 @@
 <head>
 	<title>welcome</title>
 	<style>
+	
+		html, body {
+			margin: 0rem;
+		
+			width: 100%;
+			height: 100vh;
+		}
+	
 		body {
 			background-color: #63626e;
 			color: #cbcbcb;
@@ -17,6 +25,18 @@
 			overflow: hidden;
 		}
 
+		.banner {
+			margin: auto;
+			padding: 2rem 1rem;
+			width: 95%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center; 
+			border-radius: 0.5rem;
+			color: #eee;
+			text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+		}
+
 		.main {
 			width: 100%;
 			text-align: center;
@@ -26,9 +46,16 @@
 
 <body>
 	<div class="main">
-		<img id="artwork" style="width: 25%; border-radius: 5%"
+		<div id="banner" class="banner">
+			<h1>ujelsoft official server</h1>
+			<h2>by Aethus and micai</h2>
+		</div>
+	
+		<!--
+		<img id="artwork" style="width: 20%; border-radius: 5%"
 			src="https://ujel31.netlify.app/web/media/renders/frog attack dark.png">
-		<h2>welcome to server</h2>
+		-->
+		
 		<h3>we have: </h3>
 		<ul style="text-align: left">
 			<li>mostly vanilla-ish map rotation and settings</li>
@@ -52,10 +79,10 @@
 		</div>
 		-->
 		<marquee>
-			<p style="font-size: 0.6rem">hosted on a potato in the middle of nowhere - copyright ujelsoft 1939</p>
+			<p style="font-size: 0.6rem">hosted by Aethus in Falkenstein, Germany - powered by UJELWARE</p>
 		</marquee>
 		<script>
-			const artwork = document.getElementById("artwork");
+			const banner= document.getElementById("banner");
 			const artworkImages = [
 				"chrome box.png",
 				"cow 16-9 2.png",
@@ -85,7 +112,8 @@
 				"torus knot 4-3 1.png",
 				"torus knot 4-3 3.png",
 			];
-			artwork.src = "https://ujel31.netlify.app/web/media/renders/" + artworkImages[Math.floor(Math.random() * artworkImages.length)]
+			var newurl = "https://ujel31.netlify.app/web/media/renders/" + artworkImages[Math.floor(Math.random() * artworkImages.length)];
+			banner.style.backgroundImage = "url('" + newurl + "')";
 		</script>
 
 	</div>
