@@ -1,11 +1,18 @@
 Resources
 {
+"materials/models/props_medical/med_table001.vmt" "file"
+"materials/models/props_medical/med_table001.vtf" "file"
 "materials/models/props_teaser/update_invasion_poster001.vmt" "file"
 "materials/models/props_teaser/update_invasion_poster001.vtf" "file"
 "materials/models/props_teaser/update_invasion_poster002.vmt" "file"
 "materials/models/props_teaser/update_invasion_poster002.vtf" "file"
 "materials/mvm/mvm_mann_sign_rainstreaks.vmt" "file"
 "materials/mvm/mvm_mann_sign_rainstreaks.vtf" "file"
+"models/props_medical/med_table001.dx80.vtx" "file"
+"models/props_medical/med_table001.dx90.vtx" "file"
+"models/props_medical/med_table001.mdl" "file"
+"models/props_medical/med_table001.sw.vtx" "file"
+"models/props_medical/med_table001.vvd" "file"
 "models/props_teaser/update_invasion_poster001.dx80.vtx" "file"
 "models/props_teaser/update_invasion_poster001.dx90.vtx" "file"
 "models/props_teaser/update_invasion_poster001.mdl" "file"
